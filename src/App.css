@@ -1,0 +1,82 @@
+.esas_1{
+  font-size: 14px;
+}
+.esas_1 input{
+  border: 0px;
+}
+.btn_1{
+  background-color: white;
+  border: 2px solid black;
+}
+.esas{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgray;
+  padding-bottom: 30px;
+}
+.esas_btn .btn_1{
+  font-size: 14px;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.nav__menu{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.nav__menu .nav__item{
+  list-style-type: none;
+}
+.nav__menu .nav__item .nav__link{
+  text-decoration: none;
+  color: black;
+}
+.nav__menu .nav__item .nav__link:hover{
+  color: blue;
+}
+.nav_icon{
+  list-style-type: none;
+  display: none;
+}
+.nav_icon button{
+  border: 0px;
+  background-color: white;
+}
+.esas_menu_2{
+  display: none;
+}
+@media screen and (max-width: 400px){
+  .nav__menu{
+    display: none;
+  }
+  .nav_icon {
+    display: flex;
+    transform: translateX(90px);
+    margin-right: 20px;
+  }
+  .esas_1{
+    transform: translateY(70px);
+  }
+  .esas_2{
+    display: none;
+  }
+  .esas_btn{
+    display: flex;
+    justify-content: center;
+    transform: translateX(-70px);
+  }
+  .esas_menu_2{
+    display: block;
+  }
+}
+
+
+.header_esas{
+  background-color: aqua;
+  padding: 50px auto;
+}
