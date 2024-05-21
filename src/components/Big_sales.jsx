@@ -15,9 +15,9 @@ export const Big_sales = () => {
               <h3>50% endirim</h3>
               <p>By Carl Smith • September 3, 2018</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam iste dolor accusantium facere corporis ipsum animi deleniti fugiat. Ex, veniam?</p>
-              <div><button className='btn btn-primary'>Shop Now</button></div>
-              
+              <button className='btn btn-primary'>Shop Now</button>
             </div>
+
           </div>
         </div>
 

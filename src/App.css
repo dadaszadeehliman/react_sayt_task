@@ -171,10 +171,14 @@
 .data_yazi > h3,p,span{
   text-align: center;
 }
+.data_yazi button{
+  margin: 0 40% ;
+}
 
 .Big_sales_yazi{
   display: flex;
   align-items: center;
+  
 }
 .Big_sales_yazi h3{
   text-align: center;
@@ -183,6 +187,33 @@
 .Big_sales_yazi button{
   background-color: #7971ea;
   border: 0;
-  display: flex;
-  justify-content: center;
+  margin-left: 35%;
+}
+.Big_sales_img{
+  width: 100%;
+}
+
+
+
+.Header_2_esas ul li{
+  list-style-type: none;
+  font-size: 16px;
+  margin: 10px auto;
+}
+.Header_2_esas ul{
+  padding: 0;
+}
+
+
+.Header_2_img{
+  width: 85%;
+  height: 60%;
+}
+.Header_2_contact span{
+  text-align: start;
+  display: block;
+}
+
+.footer{
+  text-align: center;
 }

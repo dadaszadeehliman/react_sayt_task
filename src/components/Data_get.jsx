@@ -1,3 +1,4 @@
+import axios from 'axios'
 import { useEffect, useState } from 'react'
 
 export const Data_get = () => {
@@ -8,6 +9,10 @@ export const Data_get = () => {
             .then(res => res.json())
             .then(gets => setGets(gets))
     }, [gets])
+    const deleteData =function(id){
+        axios.delete('http://localhost:8000/users/'+id)
+        .then(response=>console.log(response))
+    }
     return (
         <div className='container'>
             <div className='Data_get_xett'></div>
@@ -21,6 +26,7 @@ export const Data_get = () => {
                             <h3>{element.Ad}</h3>
                             <p>{element.About}</p>
                             <p className='pul'>{element.Money}</p>
+                            <button className='btn btn-primary' onClick={deleteData}>Delete</button>
                         </div>
                     )
                 })}

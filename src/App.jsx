@@ -7,6 +7,7 @@ import { Section_1 } from './components/Section_1'
 import { Section_img } from './components/Section_img'
 import { Data_get } from './components/Data_get'
 import { Big_sales } from './components/Big_sales'
+import { Header_2 } from './components/Header_2'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Section_img />
       <Data_get />
       <Big_sales />
+      <Header_2 />
     </div> 
 
 
