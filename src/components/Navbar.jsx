@@ -12,14 +12,14 @@ export const Navbar = () => {
     return (
         <header className='mt-4'>
             <div className='container esas'>
-                <div className='esas_1'>
+                <div className='esas_1 col-2'>
                     <FaSearch />
                     <input type="text" placeholder='search' />
                 </div>
-                <div className='esas_btn'>
+                <div className='esas_btn col'>
                     <button className='btn_1'>SHOOPERS</button>
                 </div>
-                <div className='esas_2'>
+                <div className='esas_2 col-3'>
                     <IoPersonSharp />
                     <FcLike />
                     <FaShoppingCart />
@@ -42,8 +42,6 @@ export const Navbar = () => {
                             <FaShoppingCart />
                         </div>
                         <button><li ><IoMdMenu /></li></button>
-
-
                     </ul>
                 </nav>
             </div>
