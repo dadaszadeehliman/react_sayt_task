@@ -5,21 +5,24 @@ import { IoPersonSharp } from "react-icons/io5";
 import { FcLike } from "react-icons/fc";
 import { FaShoppingCart } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
+import Add_form from './Add_form';
 
 
 
 export const Navbar = () => {
     return (
-        <header className='mt-4'>
-            <div className='container esas'>
-                <div className='esas_1 col-2'>
+        <header className='mt-4 container'>
+            <div><button className='btn btn-primary'>Add</button></div>
+            <Add_form />
+            <div className='row mt-5'>
+                <div className=' col-3'>
                     <FaSearch />
-                    <input type="text" placeholder='search' />
+                    <input type="text" placeholder='search' style={{border:"0"}} />
                 </div>
                 <div className='esas_btn col'>
                     <button className='btn_1'>SHOOPERS</button>
                 </div>
-                <div className='esas_2 col-3'>
+                <div className='col-2 esas_2'>
                     <IoPersonSharp />
                     <FcLike />
                     <FaShoppingCart />

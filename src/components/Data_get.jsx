@@ -26,7 +26,7 @@ export const Data_get = () => {
                             <h3>{element.Ad}</h3>
                             <p>{element.About}</p>
                             <p className='pul'>{element.Money}</p>
-                            <button className='btn btn-primary' onClick={deleteData}>Delete</button>
+                            <button className='btn btn-primary' onClick={()=>deleteData(element.id)}>Delete</button>
                         </div>
                     )
                 })}
