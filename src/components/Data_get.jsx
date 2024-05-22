@@ -21,7 +21,7 @@ export const Data_get = () => {
 
                 {gets.map(element => {
                     return (
-                        <div className='col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0 data_yazi'>
+                        <div className='col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0 data_yazi mt-5'>
                             <img src={element.img} alt="" className='Data_get_img' />
                             <h3>{element.Ad}</h3>
                             <p>{element.About}</p>
@@ -32,7 +32,5 @@ export const Data_get = () => {
                 })}
             </div>
         </div>
-
-
     )
 }

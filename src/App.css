@@ -111,10 +111,11 @@
 }
 
 .header_esas {
-  min-height: 500px;
+  height: 80vh;
   background-image: url(./assets/hero_1.jpg.webp);
   background-repeat: no-repeat;
   background-size: 100%;
+
 }
 
 .img {
